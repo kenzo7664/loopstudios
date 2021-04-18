@@ -47,4 +47,217 @@ nav{
 .nav-bar5{
     margin-right: 15px;
 }
+.sub-part1{
+    border: 1px solid white;
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-top: 90px;
+    margin-right: 56px ;
+}
+.text1{
+    font-size: 45px;
+    padding-top: 70px;
+}
+.sub-text1{
+    color: hsl(0, 0%, 55%);
+}
+.sub-part1{
+    margin-top: 160px;
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    right: 250px;
+    padding-left: 103px;
+}
+.button1{
+    border: 1px solid black;
+}
+.head{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+.text2{
+    font-size: 45px;
+}
+.button1{
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-bottom: 75px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px 1px #00000054;
 
+}
+.pictures1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.container1{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.deepearth{
+    position: absolute;
+    bottom: 8px;
+   left: 18px;
+   font-size: 38px;
+}
+.DE{
+    padding-left: 37px;
+}
+.container2{
+    position: relative;
+    text-align: center;
+    color:white;
+    
+}
+.NA{
+    position: absolute;
+    bottom: 8px;
+    left: 254px;
+    font-size: 38px;
+
+}
+.na{
+    margin-left: -225px;
+    text-align: left; 
+}
+.container3{
+    position: relative;
+    text-align: center;
+    color:white;
+}
+.SC{
+    position: absolute;
+    bottom: 8px;
+    left: 254px;
+    font-size: 38px;
+}
+.sc{
+    margin-left: -220px;
+    text-align: left;
+}
+.container4{
+    position: relative;
+    text-align: right;
+    color:white;
+}
+.THE-GRID{
+    position:absolute;
+    bottom: 8px;
+    /* left: 254px; */
+    font-size: 38px;
+}
+.th{
+    margin-left: 16px;
+    text-align: left;
+}
+.pictures2{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 150px;
+}
+.container5{
+    position: relative;
+    text-align: left;
+    color:white;
+}
+.fromabove{
+    position: absolute;
+    bottom: 8px;
+   left: 14px;
+   font-size: 38px;
+}
+.fa{
+    padding-left: 1px;
+    
+}
+.container6{
+    position: relative;
+    text-align: center;
+    color:white;
+}
+.PB{
+    position: absolute;
+    bottom: 8px;
+   left: 14px;
+   font-size: 38px;
+}
+.pb{
+    padding-left: 0px;
+    text-align: left;
+}
+.container7{
+    position: relative;
+    text-align: center;
+    color:white;
+}
+.TC{
+    position: absolute;
+    bottom: 8px;
+   left: 14px;
+   font-size: 38px; 
+}
+.tc{
+    padding-left: 7px;
+    text-align: left;
+}
+.container8{
+    position: relative;
+    text-align: right;
+    color:white;
+}
+.FISH{
+    position: absolute;
+    bottom: 8px;
+   left: 14px;
+   font-size: 38px
+}
+.fisheye{
+    padding-left: 19px;
+    text-align: left;
+}
+footer{
+    background-color: hsl(0, 0%, 0%);
+    height: 130px;
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    color: hsl(0, 0%, 41%);
+}
+.footer-box{
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top: 30px;
+}
+.cs{
+    margin-left: -85px;
+}
+.es{
+    margin-left: -85px;
+}
+.ps{
+    margin-left: -85px;
+}
+.st{
+    margin-left: -100px;
+}
