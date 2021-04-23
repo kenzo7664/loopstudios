@@ -24,8 +24,54 @@
     }
     .sub-text1{
         text-align: center;
+        font-size: 27px;
     }
     .text1{
         text-align: center;
+       
+    }
+    
+    .pictures1{
+        display: flex;
+        flex-direction: column;
+    }
+    .pictures2{
+        display: flex;
+        flex-direction: column;
+    }
+    .text2{
+        text-align: center;
+        margin-left: 124%;
+    }
+    .head{
+        margin-top: 2%;
+    
+        
+    }
+    .deep{
+        transform: rotate(270deg);
+        width: 106vw;
+        margin-left: 66%;
+    }
+    .container1{
+        position: relative;
+        text-align: left;
+        color: white;
+    }
+    .deepearth{
+        position: absolute;
+        bottom: 174px;
+       left: 18px;
+       font-size: 45px;
+    }
+    .DE{
+        padding-left: 37px;
+    }
+    footer{
+        background-color: hsl(0, 0%, 0%);
+    height: 130px;
+    width: 232vw;
+    color: white;
+
     }
 }
