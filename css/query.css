@@ -1,0 +1,31 @@
+/* Extra small devices mobile phones */
+@media only screen and (max-width: 480px) {
+    header{
+            background-image:url(../images/desktop/image-hero.jpg);
+            background-color:  hsl(0, 0%, 100%);
+            background-repeat: no-repeat;
+            height: 65vh;
+            font-weight: 400;
+            font-family: 'Alata', sans-serif;
+            color: white;
+            width: 232vw;
+        
+    }
+    .part1{
+            display: flex;
+            flex-direction: column;
+    }
+    .image-int{
+        width: 190vw;
+    }
+    .sub-part1{
+        width: 85vw;
+    margin-left: 130%;
+    }
+    .sub-text1{
+        text-align: center;
+    }
+    .text1{
+        text-align: center;
+    }
+}
