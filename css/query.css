@@ -261,7 +261,7 @@
     }
     
 }
-    @media only screen and (min-width: 481px) {
+    @media only screen and (min-width: 481px) and (max-width:720px) {
       header{
       background-image:url(../images/mobile/image-hero.jpg);
       background-color:  hsl(0, 0%, 100%);
