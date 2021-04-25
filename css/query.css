@@ -8,16 +8,18 @@
     font-weight: 400;
     font-family: 'Alata', sans-serif;
     color: white;
-    width: 165%;
+    width: 184%;
+    background-size: 100%;
    }
    .part1{
-       display: flex;
-       flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
        /* background-image:url(../images/mobile/image-interactive.jpg); */
        /* width: 0%; */
    }
    .image-int{
-       width: 130vw;
+       width: 209%;
        content: url(../images/mobile/image-interactive.jpg);
    }
    .sub-part1{
@@ -210,5 +212,17 @@
     .footer-nav{
         display: flex;
         flex-direction: column;
+    }
+    .word{
+        border: 1px solid white;
+        font-size: 75px;
+        margin-left: 56px;
+        margin-right: 247px;
+        padding-left: 30px;
+        padding-right: 2%;
+    }
+    .sub-div{
+        content: url(../images/icon-hamburger.svg);
+        width: 7%;
     }
 }
