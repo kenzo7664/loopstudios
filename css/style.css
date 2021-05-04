@@ -26,6 +26,9 @@ nav{
     justify-content: space-between;
     margin-right: 7%;
 }
+.logo{
+    margin-left: 27%;
+}
 .sub-div{
     display: flex;
     justify-content:space-around;
@@ -55,9 +58,7 @@ nav{
 .nav-bar5{
     margin-right: 15px;
 }
-.sub-part1{
-    border: 1px solid white;
-}
+
 .part1{
     display: flex;
     justify-content: space-between;
@@ -78,6 +79,7 @@ nav{
     position: relative;
     right: 250px;
     padding-left: 103px;
+    border: 1px solid white;
 }
 .button1{
     padding-left: 18px;

@@ -1,15 +1,15 @@
   /* Extra small devices mobile phones */
   @media only screen and (max-width: 480px) {
     header{
-      background-image:url(../images/mobile/image-hero.jpg);
-      background-color:  hsl(0, 0%, 100%);
+      background-image: url(../images/mobile/image-hero.jpg);
       background-repeat: no-repeat;
-      font-weight: 400;
-      font-family: 'Alata', sans-serif;
+      background-position: center;
+      background-size: cover;
       color: white;
-      width: 184%;
-      background-size: 100%;
-      height: 100vh
+      padding: 4rem 2.5rem;
+      position: relative;
+      height: 98rem;
+      width: 63rem;
       }
       body{
           font-family: 'Josefin Sans', sans-serif;;
@@ -23,18 +23,21 @@
         /* width: 0%; */
       }
     .image-int{
-        width: 216%;
-        content: url(../images/mobile/image-interactive.jpg);
+      width: 51rem;
+      height: 34rem;
+      padding: 4rem 6.5rem;
+      content: url(../images/mobile/image-interactive.jpg);
       }
     .sub-part1{
-        width: 85vw;
-        margin-left: 44%;
-        margin-top: 1%;
+      width: 85vw;
+      /* margin-left: 44%; */
+      margin-top: 1%;
+      margin: 0rem 0rem 0rem 19rem;
       }
     .sub-text1{
       border: 1px solid white;
       text-align: center;
-      margin-left: 41%;
+      margin-left: 40%;
       margin-right: -61%;
       padding-left: 0%;
       padding-right: 0%;
@@ -45,14 +48,24 @@
       border: 1px solid white;
       padding-right: 1%;
       padding-left: 7%;
-      margin-left: 32%;
+      margin-left: 13%;
       margin-right: -71%;
       }
+      .text2{
+        font-size: 45px;
+        margin-right: -108%;
+      }
+      .part2{
+      display: flex;
+      justify-content: space-between;
+      margin-right: 7%;
+     }
     .head{
-        margin-top: 10%;
-        margin-left: 45%;
-        margin-right: -38%;
-        text-align: center;
+      margin-top: 10%;
+      margin-left: 1%;
+      margin-right: 1%;
+      text-align: center;
+      margin: 0rem 0rem 0rem 22rem;
       }
     .pictures1{
         display: flex;
@@ -61,8 +74,10 @@
         margin-right: 25%;
       }
     .deep{
-        content: url(../images/mobile/image-deep-earth.jpg);
-        width: 255%;
+      content: url(../images/mobile/image-deep-earth.jpg);
+      width: 57rem;
+      height: 22rem;
+      padding: 2rem 2.5rem;
       }
     .container1{
         position: relative;
@@ -70,15 +85,16 @@
         color: white;
       }
     .deepearth{
-        position: absolute;
-        bottom: 2px;
-        left: -2px;
-        font-size: 35px;
+      position: absolute;
+    bottom: 16%;
+    left: 34%;
+    font-size: 35px;
       }
     .night{
-        content: url(../images/mobile/image-night-arcade.jpg);
-        width: 255%;
-        margin-top: 9%;
+      content: url(../images/mobile/image-night-arcade.jpg);
+      width: 57rem;
+      height: 22rem;
+      padding: 1rem 2.5rem;
       }
     .container2{
         position: relative;
@@ -86,19 +102,19 @@
         color:white;
       }
     .NA{
-        position: absolute;
-        bottom: -12px;
-        left: 259px;
-        font-size: 35px;
+      position: absolute;
+      bottom: 10%;
+      left: 55%;
+      font-size: 35px;
       }
     .na{
-        margin-left: -225px;
-        text-align: left; 
+        padding: 3rem 11rem;
       }
     .soccer{
-        content: url(../images/mobile/image-soccer-team.jpg);
-        width: 255%;
-        margin-top: 9%;
+      content: url(../images/mobile/image-soccer-team.jpg);
+      width: 57rem;
+      height: 21rem;
+      padding: 2rem 2.5rem;
       }
     .container3{
         position: relative;
@@ -106,19 +122,19 @@
         color:white;
       }
     .SC{
-        position: absolute;
-        bottom: -1px;
-        left: 261px;
-        font-size: 35px;
+      position: absolute;
+      bottom: 9%;
+      left: 55%;
+      font-size: 35px;
       }
     .sc{
-        margin-left: -220px;
-        text-align: left;
+       padding: 3rem  11rem;
       }
     .grid{
-        content: url(../images/mobile/image-grid.jpg);
-        width: 255%;
-        margin-top: 9%;
+      content: url(../images/mobile/image-grid.jpg);
+      width: 57rem;
+      height: 23rem;
+      padding: 2rem 2.5rem;
       }
     .container4{
         position: relative;
@@ -126,14 +142,13 @@
         color:white;
       }
     .THE-GRID{
-        position: absolute;
-        bottom: -7px;
-        left: 31px;
-        font-size: 35px
+      position: absolute;
+      bottom: 13%;
+      left: -56px;
+      font-size: 35px;
       }
       .th{
-        margin-left: 16px;
-        text-align: left;
+       padding: 3rem 10rem;
       }
       .pictures2{
           display: flex;
@@ -145,8 +160,9 @@
       }
       .above{
           content: url(../images/mobile/image-from-above.jpg);
-          width: 255%;
-          margin-top: 6%;
+          width: 57rem;
+          height: 23rem;
+          padding: 2rem 2.5rem;
       }
       .container5{
           position: relative;
@@ -154,15 +170,20 @@
           color:white;
       }
       .fromabove{
-          position: absolute;
-          bottom: 2px;
-          left: 38px;
-          font-size: 35px;
+        position: absolute;
+        bottom: 2px;
+        left: -18%;
+        font-size: 35px;
+      }
+      .fa{
+        padding: 3rem 11rem;
+        padding-right: 0%;
       }
       .borealis{
           content: url(../images/mobile/image-pocket-borealis.jpg);
-          width: 255%;
-          margin-top: 9%;
+          width: 57rem;
+          height: 23rem;
+          padding: 2rem 2.5rem;
       }
       .container6{
           position: relative;
@@ -170,15 +191,19 @@
           color:white;
       }
       .PB{
-          position: absolute;
-      bottom: 2px;
-      left: 39px;
-      font-size: 35px;
+        position: absolute;
+        bottom: 2px;
+        left: -18%;
+        font-size: 35px;
+      }
+      .pb{
+        padding: 3rem 11rem;
       }
       .curiosity{
           content: url(../images/mobile/image-curiosity.jpg);
-          width: 255%;
-          margin-top: 9%;
+          width: 57rem;
+          height: 23rem;
+          padding: 2rem 2.5rem;
       }
       .container7{
           position: relative;
@@ -186,15 +211,19 @@
           color:white;
       }
       .TC{
-          position: absolute;
-      bottom: -2px;
-      left: 30px;
-      font-size: 35px; 
+        position: absolute;
+        bottom: -2px;
+        left: -22%;
+        font-size: 35px; 
+      }
+      .tc{
+        padding: 3rem 11rem;
       }
       .FISHEYE{
           content: url(../images/mobile/image-fisheye.jpg);
-          width: 255%;
-          margin-top: 9%;
+          width: 57rem;
+          height: 23rem;
+          padding: 2rem 2.5rem;
       }
       .container8{
           position: relative;
@@ -202,10 +231,13 @@
           color:white;
       }
       .FISH{
-          position: absolute;
-      bottom: -3px;
-      left: 22px;
-      font-size: 35px;
+        position: absolute;
+        bottom: -3px;
+        left: -26%;
+        font-size: 35px;
+      }
+      .fisheye{
+        padding: 3rem 11rem;
       }
       .button1{
           margin-left: 101%;
@@ -215,20 +247,22 @@
       display: none;
       }
       .button2{
-        padding-left: 18px;
-        margin-bottom: 6%;
+        padding-left: 0px;
+        padding-right: 7%;
+        margin-bottom: 11%;
         box-shadow: 2px 2px 2px 1px #00000054;
         border: 1px solid black;
         text-align: center;
-        margin-left: 76%;
-        margin-right: -9%;
+        margin-left: 1%;
+        margin-right: 1%;
         display: block;
     }
       footer{
-          background-color: hsl(0, 0%, 0%);
-      height:60vh;
-      color: #ffffff;
-      width: 184vw;
+        background-color: hsl(0, 0%, 0%);
+        height: 27rem;
+        color: #ffffff;
+        width: 63rem;
+        padding: 4rem 2.5rem;
       }
       .main{
           display: flex;
@@ -240,23 +274,24 @@
       flex-direction: column;
       /* position: relative; */
       line-height: 3rem;
+      margin-left: 3%;
       }
       .word{
         border: 3px solid white;
-      font-size: 4rem;
-      margin-left: 8%;
-      margin-right: 32%;
-      padding-left: 3%;
-      padding-right: 4%;
-      margin-top: 4%;
-      margin-bottom: 2%;
+        font-size: 6rem;
+        margin-left: 8%;
+        margin-right: 19%;
+        padding-left: 3%;
+        padding-right: 4%;
+        margin-top: 53%;
+        margin-bottom: 2%;
       }
       .sub-div{
           content: url(../images/icon-hamburger.svg);
           width: 7%;
       }
       .log{
-        margin-left: 36%;
+        margin-left: 41%;
       }
       .footerlink1{
         list-style: none;
@@ -291,15 +326,19 @@
 
       .icons{
         margin-top: 0%;
-        margin-left: 0%;
-        margin-right: 35%;
-        font-size: 2rem;
+        margin-left: -17%;
+        margin-right: 7%;
+        font-size: 28px;
       }
       .copyright{
         margin-left: 0%;
-        font-size: 22px;
-        margin-top: 1%;
+        font-size: 26px;
+        margin-top: -5%;
         margin-right: 16%;
+      }
+      .buttoonn{
+        margin: 0% 0 0% 100%;
+        margin-right: -93%;
       }
       
       
